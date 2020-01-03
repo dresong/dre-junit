@@ -1,0 +1,24 @@
+{
+    "name": "dresong/dre-junit",
+    "description": "a simple test unit for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dresong",
+            "email": "dresong@126.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dresong\\DreJunit\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dresong\\DreJunit\\Providers\\DreJunitSeriveProvider"
+            ]
+        }
+    }
+}
