@@ -16,10 +16,10 @@ composer require "shineyork/sjunit-laravel"
 在 `config/app.php` 注册 ServiceProvider 和 Facade (Laravel 5.5 无需手动注册)
 
 'providers' => [
-    ShineYork\SJunitLaravel\SJunitServiceProvide::class,
+    Dresong\DreJunit\Http\Providers\DreJunitServiceProvider::class,
 ]
 
 然后在浏览器中直接访问路由
 
-Route::get('/', 'SJunitController@index');
-Route::post('/', 'SJunitController@store')->name('junit.store');
+Route::get('/', 'DreJunitController@index');
+Route::post('/', 'DreJunitController@store')->name('junit.store');
