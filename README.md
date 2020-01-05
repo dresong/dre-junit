@@ -21,5 +21,5 @@ composer require "dresong/dre-junit"
 
 然后在浏览器中直接访问路由
 
-Route::get('/', 'DreJunitController@index');
-Route::post('/', 'DreJunitController@store')->name('junit.store');
+Route::get('drejunit', 'DreJunitController@index');
+Route::post('drejunit', 'DreJunitController@store')->name('drejunit.store');
