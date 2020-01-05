@@ -1,10 +1,10 @@
 <?php
 
-namespace Dresong\Http\Providers;
+namespace Dresong\DreJunit\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class DreJunitSeriveProvider extends ServiceProvider
+class DreJunitServiceProvider extends ServiceProvider
 {
     public function boot()
     {
